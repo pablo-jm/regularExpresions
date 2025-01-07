@@ -13,6 +13,6 @@ Porque permiten manejar y manipular texto de manera eficiente, lo cual es una ha
 
 Ejercicio 1:
 Escribe las expresiones regulares correctas para validar:
-un email → /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-un número de teléfono (español) → /^(\+34\s?)?(\d{9}|\d{3}\s\d{3}\s\d{3})$/
-un DNI → /^\d{8}[A-Z]$/
+- un email → /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+- un número de teléfono (español) → /^(\+34\s?)?(\d{9}|\d{3}\s\d{3}\s\d{3})$/
+- un DNI → /^\d{8}[A-Z]$/
