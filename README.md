@@ -2,10 +2,10 @@
 Son patrones de texto utilizados para buscar, analizar y manipular cadenas de caracteres.
 
 ¿Qué problema resuelven?
-   - Comprobar si un string tiene un formato indicado
+   - Comprobar si un string tiene un formato indicado:
       Validar correos electrónicos, números de teléfono, contraseñas seguras, fechas, etc.
 
-   - Encontrar coincidencias (matches) dentro de un string
+   - Encontrar coincidencias (matches) dentro de un string:
       Extraer datos relevantes, buscar palabras clave, variaciones del texto, detectar patrones repetidos, etc.
 
 ¿Por qué es importante conocerlas?
