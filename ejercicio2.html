@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+
+<h1>Formulario de Contacto</h1>
+<form>
+
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" pattern="^[A-Za-zÁÉÍÓÚÑáéíóúñ\s]{2,50}$" required>
+  </div>
+
+  <div>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" pattern="^[A-Za-zÁÉÍÓÚÑáéíóúñ\s]{2,50}$" required>
+  </div>
+
+  <div>
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" name="dni" pattern="^\d{8}[A-Z]$" required>
+  </div>
+
+  <div>
+    <label for="telefono">Número de Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" pattern="^(?:\+34\s?)?\d{9}$" required>
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+  </div>
+
+  <div>
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" pattern="^[\w\s,.\-#]{5,100}$" required>
+  </div>
+
+  <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
